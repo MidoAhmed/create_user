@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MidoAhmed/create_user.svg?branch=master)](https://travis-ci.org/MidoAhmed/create_user)
+
 create_user
 =========
 
@@ -15,7 +17,7 @@ Role Variables
 
 
 Define the user you would to create.
->user_name: present
+>user_name: default
 
 Define the state present or absent
 >user_state: present
