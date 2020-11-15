@@ -50,4 +50,4 @@ MIT
 Author Information
 ------------------
 
-- me.example@gmail.com
+- test@gmail.com
