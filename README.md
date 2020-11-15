@@ -50,4 +50,4 @@ MIT
 Author Information
 ------------------
 
-- plural.xamp@gmail.com
+- me.example@gmail.com
