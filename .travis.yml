@@ -13,7 +13,7 @@ addons:
     - python3-pip
 
 install:
-  - python3 -m pip install --user "molecule[docker, lint, ansible]"
+  - python3 -m pip install "molecule[docker, lint, ansible]"
 
   # Check molecule version
   - molecule --version
