@@ -13,13 +13,17 @@ addons:
     - python3-pip
 
 install:
-  - python3 -m pip install "molecule[docker, lint, ansible]"
+  - python3 -m pip install "molecule[docker, lint, ansible]" pytest-testinfra
 
   # Check molecule version
   - molecule --version
 
   # Check ansible version
   - ansible --version
+
+
+  # Check installed docker driver
+  - pip freeze | grep pytest-testinfra 
 
   # Check installed docker driver
   - pip freeze | grep docker
@@ -29,4 +33,7 @@ install:
   - pip freeze | grep flake8
 
 script:
-  - molecule --version
+  # - molecule test --all
+  # - molecule test
+  - molecule test --scenario-name default
+  - molecule test --scenario-name scenario-with-testinfra-verifier
