@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/MidoAhmed/create_user.svg?branch=master)](https://travis-ci.org/MidoAhmed/create_user)
+
+|Travis|GitHub|
+|------|------|
+|[![travis](https://travis-ci.org/MidoAhmed/create_user.svg?branch=master)](https://travis-ci.org/MidoAhmed/create_user)|[![github](https://github.com/MidoAhmed/create_user/workflows/Ansible%20Molecule/badge.svg)](https://github.com/MidoAhmed/create_user/actions)|
 
 create_user
 =========
